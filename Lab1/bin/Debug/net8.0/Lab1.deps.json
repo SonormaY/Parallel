@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Lab1/1.0.0": {
+        "dependencies": {
+          "Sonorma.SuperDuperMenu": "1.0.2"
+        },
+        "runtime": {
+          "Lab1.dll": {}
+        }
+      },
+      "Sonorma.SuperDuperMenu/1.0.2": {
+        "runtime": {
+          "lib/net8.0/SuperDuperMenu.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sonorma.SuperDuperMenu/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WwnA0IA2P4uy7nNPrUwtzl5xM2Xf1B30pvnujn3MJYglyQFiQf+bkuySDTsywFunbn+M/FtrJ8ZyRIKeGwSvRw==",
+      "path": "sonorma.superdupermenu/1.0.2",
+      "hashPath": "sonorma.superdupermenu.1.0.2.nupkg.sha512"
+    }
+  }
+}

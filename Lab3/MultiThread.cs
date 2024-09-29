@@ -40,46 +40,7 @@ static class MultiThread
         Console.WriteLine($"Elapsed time for {n}x{n} matrix: {sw.ElapsedMilliseconds} ms"); 
         return sw.ElapsedMilliseconds;       
     }
-    static int[,] MultiplyMatrices(int[,] A, int[,] B, int k)
-    {
-        int n = A.GetLength(0);
-        int m = A.GetLength(1);
-        int p = B.GetLength(1);
-        int[,] C = new int[n, p];
-        
-
-        // create threads
-        Thread[] threads = new Thread[k];
-        
-        int completedThreads = 0;
-        for (int i = 0; i < k; i++)
-        {
-            threads[i] = new Thread((object obj) =>
-            {
-                for (int j = (int)obj; j < p; j += k)
-                {
-                    for (int l = 0; l < n; l++)
-                    {
-                        C[l, j] = 0;
-                        for (int o = 0; o < m; o++)
-                        {
-                            C[l, j] += A[l, o] * B[o, j];
-                        }
-                    }
-                }
-                Interlocked.Increment(ref completedThreads);
-            });
-            threads[i].Start(i);
-        }
-        // wait for all threads to finish
-        while (completedThreads < k) { 
-            Thread.Sleep(1);
-        }
-        
-        return C;
-    }
-
-    public static double[] Solve(double[][] A, double[] B, double eps, int max_iterations = 100, int k = 5, bool debug = false)
+    public static double[] Solve(double[][] A, double[] B, double eps, int max_iterations = 100, int k = 2, bool debug = false)
     {
         // create threads
         Thread[] threads = new Thread[k];

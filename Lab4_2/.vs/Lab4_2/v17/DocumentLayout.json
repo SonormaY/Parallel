@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sonorma\\Desktop\\Parallel\\Lab4_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17196FED-0ED9-4247-BB95-863169DCE71A}|Lab4_2.csproj|c:\\users\\sonorma\\desktop\\parallel\\lab4_2\\sineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17196FED-0ED9-4247-BB95-863169DCE71A}|Lab4_2.csproj|solutionrelative:sineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17196FED-0ED9-4247-BB95-863169DCE71A}|Lab4_2.csproj|c:\\users\\sonorma\\desktop\\parallel\\lab4_2\\starform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17196FED-0ED9-4247-BB95-863169DCE71A}|Lab4_2.csproj|solutionrelative:starform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17196FED-0ED9-4247-BB95-863169DCE71A}|Lab4_2.csproj|c:\\users\\sonorma\\desktop\\parallel\\lab4_2\\rectangleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17196FED-0ED9-4247-BB95-863169DCE71A}|Lab4_2.csproj|solutionrelative:rectangleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17196FED-0ED9-4247-BB95-863169DCE71A}|Lab4_2.csproj|c:\\users\\sonorma\\desktop\\parallel\\lab4_2\\ballform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17196FED-0ED9-4247-BB95-863169DCE71A}|Lab4_2.csproj|solutionrelative:ballform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StarForm.cs",
+              "DocumentMoniker": "C:\\Users\\Sonorma\\Desktop\\Parallel\\Lab4_2\\StarForm.cs",
+              "RelativeDocumentMoniker": "StarForm.cs",
+              "ToolTip": "C:\\Users\\Sonorma\\Desktop\\Parallel\\Lab4_2\\StarForm.cs",
+              "RelativeToolTip": "StarForm.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAD0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T19:46:08.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SineForm.cs",
+              "DocumentMoniker": "C:\\Users\\Sonorma\\Desktop\\Parallel\\Lab4_2\\SineForm.cs",
+              "RelativeDocumentMoniker": "SineForm.cs",
+              "ToolTip": "C:\\Users\\Sonorma\\Desktop\\Parallel\\Lab4_2\\SineForm.cs",
+              "RelativeToolTip": "SineForm.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwDEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T19:41:50.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RectangleForm.cs",
+              "DocumentMoniker": "C:\\Users\\Sonorma\\Desktop\\Parallel\\Lab4_2\\RectangleForm.cs",
+              "RelativeDocumentMoniker": "RectangleForm.cs",
+              "ToolTip": "C:\\Users\\Sonorma\\Desktop\\Parallel\\Lab4_2\\RectangleForm.cs",
+              "RelativeToolTip": "RectangleForm.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAIwDMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T19:41:25.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BallForm.cs",
+              "DocumentMoniker": "C:\\Users\\Sonorma\\Desktop\\Parallel\\Lab4_2\\BallForm.cs",
+              "RelativeDocumentMoniker": "BallForm.cs",
+              "ToolTip": "C:\\Users\\Sonorma\\Desktop\\Parallel\\Lab4_2\\BallForm.cs",
+              "RelativeToolTip": "BallForm.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T19:40:31.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

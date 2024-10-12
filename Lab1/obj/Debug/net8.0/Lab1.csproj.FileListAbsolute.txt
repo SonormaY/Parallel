@@ -15,3 +15,4 @@
 /home/sonorma/Documents/Study/Parallel/Lab1/obj/Debug/net8.0/Lab1.pdb
 /home/sonorma/Documents/Study/Parallel/Lab1/obj/Debug/net8.0/Lab1.genruntimeconfig.cache
 /home/sonorma/Documents/Study/Parallel/Lab1/obj/Debug/net8.0/ref/Lab1.dll
+/home/sonorma/Documents/Study/Parallel/Lab1/obj/Debug/net8.0/Lab1.sourcelink.json

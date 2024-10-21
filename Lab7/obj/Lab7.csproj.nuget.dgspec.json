@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/sonorma/Documents/Study/Parallel/Lab6/Lab6.csproj": {}
+    "/home/sonorma/Documents/Study/Parallel/Lab7/Lab7.csproj": {}
   },
   "projects": {
-    "/home/sonorma/Documents/Study/Parallel/Lab6/Lab6.csproj": {
+    "/home/sonorma/Documents/Study/Parallel/Lab7/Lab7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sonorma/Documents/Study/Parallel/Lab6/Lab6.csproj",
-        "projectName": "Lab6",
-        "projectPath": "/home/sonorma/Documents/Study/Parallel/Lab6/Lab6.csproj",
+        "projectUniqueName": "/home/sonorma/Documents/Study/Parallel/Lab7/Lab7.csproj",
+        "projectName": "Lab7",
+        "projectPath": "/home/sonorma/Documents/Study/Parallel/Lab7/Lab7.csproj",
         "packagesPath": "/home/sonorma/.nuget/packages/",
-        "outputPath": "/home/sonorma/Documents/Study/Parallel/Lab6/obj/",
+        "outputPath": "/home/sonorma/Documents/Study/Parallel/Lab7/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sonorma/.nuget/NuGet/NuGet.Config"
@@ -43,10 +43,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "ConcurrentPriorityQueue": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "Sonorma.SuperDuperMenu": {
               "target": "Package",
               "version": "[1.0.2, )"

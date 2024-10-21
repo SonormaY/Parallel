@@ -1,13 +1,13 @@
-﻿using SuperDuperMenuLib;
+﻿﻿using SuperDuperMenuLib;
 
-namespace Lab6
+namespace Lab7
 {
     static class Program
     {
         static void Main(string[] args)
         {
             SuperDuperMenu menu = new SuperDuperMenu();
-            var graph = Dijkstra.RandomGraph(20000);
+            var graph = Prim.RandomGraph(20000);
             Dictionary<string, Action> menuItems = new Dictionary<string, Action>
             {
                 { "One thread on small", () => {
@@ -20,13 +20,12 @@ namespace Lab6
                         {4, new Dictionary<int, int>()}
                     };
 
-                    var shortestPaths = Dijkstra.DijkstraAlgorithm(graph, 0, out long elapsedMilliseconds);
+                    var (parent, key) = Prim.PrimAlgorithm(graph, 0, out long elapsedMilliseconds);
                     Console.WriteLine($"Elapsed time: {elapsedMilliseconds} ms");
-                    foreach (var (endVertex, shortestDistance) in shortestPaths)
-                        Console.WriteLine($"Shortest distance from vertex 0 to vertex {endVertex}: {shortestDistance}");
+                    Prim.PrintMST(parent, key);
                 }},
                 { "One thread on large", () => {
-                    Dijkstra.DijkstraAlgorithm(graph, 0, out long elapsedMilliseconds);
+                    Prim.PrimAlgorithm(graph, 0, out long elapsedMilliseconds);
                     Console.WriteLine($"Elapsed time: {elapsedMilliseconds} ms");
                 }},
                 { "Multi threads on small", () => {
@@ -41,22 +40,21 @@ namespace Lab6
 
                     Console.WriteLine("Enter the number of threads: ");
                     int k = int.Parse(Console.ReadLine());
-                    var shortestPaths = Dijkstra.DijkstraAlgorithmMultiThreaded(graph, 0, k, out long elapsedMilliseconds);
+                    var (parent, key) = Prim.PrimAlgorithmMultiThreaded(graph, 0, k, out long elapsedMilliseconds);
                     Console.WriteLine($"Elapsed time: {elapsedMilliseconds} ms");
-                    foreach (var (endVertex, shortestDistance) in shortestPaths)
-                        Console.WriteLine($"Shortest distance from vertex 0 to vertex {endVertex}: {shortestDistance}");
+                    Prim.PrintMST(parent, key);
                 }},
                 { "Multi threads on large", () => {
                     Console.WriteLine("Enter the number of threads: ");
                     int k = int.Parse(Console.ReadLine());
-                    Dijkstra.DijkstraAlgorithmMultiThreaded(graph, 0, k, out long elapsedMilliseconds);
+                    Prim.PrimAlgorithmMultiThreaded(graph, 0, k, out long elapsedMilliseconds);
                     Console.WriteLine($"Elapsed time: {elapsedMilliseconds} ms");
                 }},
                 { "Difference", () => {
                     Console.WriteLine("Enter the number of threads: ");
                     int k = int.Parse(Console.ReadLine());
-                    Dijkstra.DijkstraAlgorithm(graph, 0, out long elapsedMillisecondsSingle);
-                    Dijkstra.DijkstraAlgorithmMultiThreaded(graph, 0, k, out long elapsedMillisecondsMulti);
+                    Prim.PrimAlgorithm(graph, 0, out long elapsedMillisecondsSingle);
+                    Prim.PrimAlgorithmMultiThreaded(graph, 0, k, out long elapsedMillisecondsMulti);
                     Console.WriteLine($"Single-threaded: {elapsedMillisecondsSingle} ms");
                     Console.WriteLine($"Multi-threaded: {elapsedMillisecondsMulti} ms");
                     Console.WriteLine($"Difference: {(float)elapsedMillisecondsSingle / elapsedMillisecondsMulti}");
@@ -64,10 +62,10 @@ namespace Lab6
                 { "Best efficiency", () => {
                     int bestK = 0;
                     float bestEfficiency = 0;
-                    Dijkstra.DijkstraAlgorithm(graph, 0, out long elapsedMillisecondsSingle);
+                    Prim.PrimAlgorithm(graph, 0, out long elapsedMillisecondsSingle);
                     for (int k = 1; k <= 16; k++)
                     {
-                        Dijkstra.DijkstraAlgorithmMultiThreaded(graph, 0, k, out long elapsedMillisecondsMulti);
+                        Prim.PrimAlgorithmMultiThreaded(graph, 0, k, out long elapsedMillisecondsMulti);
                         float efficiency = (float)elapsedMillisecondsSingle / elapsedMillisecondsMulti;
                         Console.WriteLine($"Threads: {k}, Efficiency: {efficiency}");
                         if (efficiency > bestEfficiency)
@@ -82,7 +80,7 @@ namespace Lab6
             }; 
             menu.LoadEntries(menuItems);
 
-            menu.Title = "Dijkstra's Shortest Path Algorithm";
+            menu.Title = "Prim's MST Algorithm";
             menu.Run();
         }
     }

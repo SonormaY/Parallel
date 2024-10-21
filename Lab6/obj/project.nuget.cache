@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "VFuDIuKZkinv/1Lq1YgRQY3mP40wf0Y8GjLwZ90Cdd3339d0hyVVmrGeq59v2xSeu0TjU6ruFmjZLqqqsS7UTw==",
+  "dgSpecHash": "34rpSF9/XOEjDWinlTEP3RAITnTnw8TwmzrJgtBbcU4AXCqFtwbK7o08Z8CazS7KhWxpgPQ9JTZE4Ups2lVlkA==",
   "success": true,
   "projectFilePath": "/home/sonorma/Documents/Study/Parallel/Lab6/Lab6.csproj",
   "expectedPackageFiles": [
+    "/home/sonorma/.nuget/packages/concurrentpriorityqueue/3.0.0/concurrentpriorityqueue.3.0.0.nupkg.sha512",
+    "/home/sonorma/.nuget/packages/csharpfunctionalextensions/2.40.3/csharpfunctionalextensions.2.40.3.nupkg.sha512",
     "/home/sonorma/.nuget/packages/sonorma.superdupermenu/1.0.2/sonorma.superdupermenu.1.0.2.nupkg.sha512"
   ],
   "logs": []

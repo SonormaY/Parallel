@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "k1ncJGFr3Dv2tgVLJKvB3QGzJckDK1gb3NN5XI4TsG62w3ICAYbtzWRvgkCL4b8/7yJURzAEhXFyCJA1f9E0sw==",
+  "success": true,
+  "projectFilePath": "/home/sonorma/Documents/Study/Parallel/Lab7/Lab7.csproj",
+  "expectedPackageFiles": [
+    "/home/sonorma/.nuget/packages/sonorma.superdupermenu/1.0.2/sonorma.superdupermenu.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

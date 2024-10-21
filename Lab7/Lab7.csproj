@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ConcurrentPriorityQueue" Version="3.0.0" />
     <PackageReference Include="Sonorma.SuperDuperMenu" Version="1.0.2" />
   </ItemGroup>
 
